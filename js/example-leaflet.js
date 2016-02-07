@@ -28,12 +28,15 @@ var mapLayers = {
     "Satellite": satLayer,
     "Map View": drawLayer,
     "Open Street Maps": osm
-}
-
+};
+//creating a variable for all 3 map layers you defined. 
 var map = L.map('map-container').setView([46.852, -121.760], 13);
+//adding map
 
 L.control.layers(mapLayers).addTo(map);
 satLayer.addTo(map);
+//one by one adding layers or add all at once, as shown above
 
 var marker = L.marker([46.852, -121.760]).addTo(map);
 marker.bindPopup("<b>Welcome to Mt. Rainier!</b><br>This peak is 4,392 feet high.");
+//adding markers to the map 

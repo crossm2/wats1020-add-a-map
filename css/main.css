@@ -2,8 +2,37 @@
    Author's custom styles
    ========================================================================== */
 
-#map-container { height: 180px; }
+#map-container { 
+	height: 400px;
+	border:10px solid #81b33a;
+}
 
+.item img {
+    max-height: 475px;
+	width:100%;
+	max-width: none;
+}
+#carousel-images {
+border:10px solid #81b33a;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 475px;
+}
+.carousel-indicators li {
+	background-color:#81b33a;
+	border-color:#81b33a;
+}
+
+#stats img {
+	height: 460px;
+}
+
+
+.nav-tabs li a {
+    background-color:  #81b33a;
+    border-color: #81b33a;
+    color: white;
 
 
 
